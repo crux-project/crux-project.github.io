@@ -7,7 +7,8 @@ banner: 'default'
 
 <style>
     .clustrmaps{width:320px; height:120px; float:right}
-    .button1 {
+
+    .button1{
         display: inline-block;
         border-radius: 4px;
         background-color: #f2ae55;
@@ -43,6 +44,46 @@ banner: 'default'
     }
 
     .button1:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .button2{
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f2ae55;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 19px;
+        padding: 11px 28px;
+        width: 210px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .button2 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .button2 span:after {
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .button2:hover span {
+        padding-right: 25px;
+    }
+
+    .button2:hover span:after {
         opacity: 1;
         right: 0;
     }
