@@ -12,6 +12,20 @@ layout: about
         height: 200px;
         font-size: 15px;
     }
+    @media screen and (max-width: 480px) {
+        .left {
+            float: none;
+            width: 100%;
+            height: auto;
+        }
+        .right {
+            margin-left: 0;
+            height: auto;
+            font-size: 15px;
+        }
+    }
 </style>
 
 {{ content }}
+
+
