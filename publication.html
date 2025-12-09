@@ -1,11 +1,48 @@
 ---
-layout: default
-title: Publication
+layout: about
+title: Outcome
 ---
 
-<h1>Publication List</h1>
+<style>
+/* Tighten heading spacing only on this page */
+.post .post-content .publication-page h2,
+.post .post-content .publication-page h3,
+.post .post-content .publication-page h4,
+.post .post-content .publication-page h5,
+.post .post-content .publication-page h6 {
+    margin: 24px 0 12px;
+}
 
-<h2>2025</h2>
+.post .post-content .publication-page h2:first-child {
+    margin-top: 12px;
+}
+
+.post .post-content .publication-page ol,
+.post .post-content .publication-page ul {
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+</style>
+
+<div class="publication-page">
+<h2 id="Publications">Publication List</h2>
+
+<h3 id="publications-2026">2026</h3>
+
+<ol>
+    <li>
+        <b>
+            <a href="https://cwru-db-group.github.io/serenQA/" target="_blank" style="color:#37474F">
+                Assessing LLMs for Serendipity Discovery in Knowledge Graphs: A Case for Drug Repurposing</a>
+        </b>
+        <br>
+        The 40th AAAI Conference on Artificial Intelligence (AAAI 26, Accepted Rate: 17.6%)
+        <br>
+        <em>Mengying Wang, Chenhui Ma, Ao Jiao, Tuo Liang, Pengjun Lu, Shrinidhi Hegde, Yu Yin, Evren Gurkan-Cavusoglu, Yinghui Wu</em>
+    </li>
+</ol>
+
+<h3 id="publications-2025">2025</h3>
 
 <ol>
     <li>
@@ -23,7 +60,7 @@ title: Publication
             Position: Current Model Licensing Practices are Dragging Us into a Quagmire of Legal Noncompliance
         </b>
         <br>
-        The 42nd International Conference on Machine Learning (ICML 2025, Selected as Oral)
+        The 42nd International Conference on Machine Learning (ICML 2025, Selected as Oral (top ~1%))
         <br>
         <em>Moming Duan, Mingzhe Du, Rui Zhao, Mengying Wang, Yinghui Wu, Nigel Shadbolt, Bingsheng He</em>
     </li>
@@ -35,12 +72,12 @@ title: Publication
         <br>
         The 28th International Conference on Extending Database Technology (EDBT 2025)
         <br>
-        <em>Mengying Wang, Hanchao Ma, Yiyang Bian, Yangxin Fan and Yinghui Wu</em>
+        <em>Mengying Wang, Hanchao Ma, Yiyang Bian, Yangxin Fan, Yinghui Wu</em>
     </li>
 </ol>
 
 
-<h2>2024</h2>
+<h3 id="publications-2024">2024</h3>
 <ol>
     <li>
         <b>
@@ -82,7 +119,7 @@ title: Publication
     </li>
 </ol>
 
-<h2>2023</h2>
+<h3 id="publications-2023">2023</h3>
 
 <ol>
     <li>
@@ -114,7 +151,7 @@ title: Publication
     </li>
 </ol>
 
-<h2>2022</h2>
+<h3 id="publications-2022">2022</h3>
 
 <ol>
     <li>
@@ -158,7 +195,7 @@ title: Publication
     </li>
 </ol>
 
-<h2>2021</h2>
+<h3 id="publications-2021">2021</h3>
 
 <ol>
     <li>
@@ -193,3 +230,23 @@ title: Publication
     </li>
 </ol>
 
+<h2 id="SystemSoftware">System &amp; Software</h2>
+
+<h3 id="crux-platform">
+    <a href="https://crux-njs.vercel.app/app" style="color:#37474F">
+        CRUX Platform
+    </a>
+</h3>
+<p>CRUX is a crowdsourced scientific ML-Asset Management platform with dedicated support for materials science. It provides an end-to-end ecosystem for curating, searching, and discovering AI/ML assets through three major components:</p>
+<ol>
+    <li><strong>Asset Curation.</strong> Upload assets with self/lab/public permissions; assets are standardized to CRUX schemas and integrated into the CRUX AI/ML Asset Graph for consistent representation, cross-asset linking, and scalable metadata management.</li>
+    <li><strong>Asset Search.</strong> Intelligent, domain-aware search across tags and metadata with LLM-enhanced subgraph reasoning and custom interfaces tailored for materials scientists.</li>
+    <li><strong>Asset Discovery.</strong> Automated and hybrid workflows for data-driven model selection (see ModsNet(VLDB’24, CIKM’23)) and model-driven data discovery (see MODis(EDBT’25)).</li>
+</ol>
+<p>
+    <a href="https://crux-njs.vercel.app/app" style="color:#37474F">
+        Launch the CRUX platform
+    </a>
+    to explore the end-to-end workflow.
+</p>
+</div>
